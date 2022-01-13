@@ -8,4 +8,4 @@ def test_count_words():
                         'over': 2, 'and': 2, 'expecting': 1,
                         'different': 1, 'results': 1})
     actual = count_words("tests/einstein.txt")
-    assert 1 == 1, "Einstein quote counted incorrectly!"
+    assert expected == actual, "Einstein quote counted incorrectly!"
